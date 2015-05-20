@@ -12,7 +12,7 @@ body {
   margin-bottom: $jumbotron-padding;
   color: #fff;
   height: 550px;
-  background-image: url("images/atom_purple_hero_img.jpg");
+  background-image: url("/images/atom_purple_hero_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -20,7 +20,7 @@ body {
   h1,
   .h1 {
     color: $jumbotron-heading-color;
-    font-family: "FiraSansMedium";
+    font-family: "FiraSans-Medium";
     padding-top: 20px;
   }
 

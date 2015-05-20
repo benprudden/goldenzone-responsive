@@ -5,32 +5,37 @@
 
 // Font Import
 // -------------------------
-@font-face {
-  font-family: 'FiraSansLight';
-  font-style: normal;
-  src: url(fonts/WOFF/FiraSans-Light.woff);
-  src: local('FiraSans-Light'), url(fonts/WOFF/FiraSans-Light.woff) format('woff');
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Light.eot');
+    src: local('Fira Sans Light'),
+         url('eot/FiraSans-Light.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Light.woff') format('woff'),
+         url('ttf/FiraSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
-@font-face {
-  font-family: 'FiraSansRegular';
-  font-style: normal;
-  src: url(fonts/WOFF/FiraSans-Regular.woff);
-  src: local('FiraSans-Regular'), url(fonts/WOFF/FiraSans-Regular.woff) format('woff');
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'),
+         url('eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Regular.woff') format('woff'),
+         url('ttf/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
-@font-face {
-  font-family: 'FiraSansBook';
-  font-style: normal;
-  src: url(fonts/WOFF/FiraSans-Book.woff);
-  src: local('FiraSans-Book'), url(fonts/WOFF/FiraSans-Book.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'FiraSansMedium';
-  font-style: normal;
-  src: url(fonts/WOFF/FiraSans-Medium.woff);
-  src: local('FiraSans-Medium'), url(fonts/WOFF/FiraSans-Medium.woff) format('woff');
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('eot/FiraSans-Medium.eot');
+    src: local('Fira Sans Medium'),
+         url('eot/FiraSans-Medium.eot') format('embedded-opentype'),
+         url('woff/FiraSans-Medium.woff') format('woff'),
+         url('ttf/FiraSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -76,23 +81,23 @@ h6, .h6 {
 }
 
 h1, .h1 { font-size: $font-size-h1;
-          font-family: "FiraSansMedium";
+          font-family: "FiraSans-Medium";
 }
 h2, .h2 { font-size: $font-size-h2; 
-          font-family: "FiraSansLight";
+          font-family: "FiraSans-Light";
 }
 h3, .h3 { font-size: $font-size-h3; 
-          font-family: "FiraSansLight";
+          font-family: "FiraSans-Light";
           line-height: normal;
 }
 h4, .h4 { font-size: $font-size-h4; 
-          font-family: "FiraSansBook";
+          font-family: "FiraSans-Regular";
 }
 h5, .h5 { font-size: $font-size-h5; 
-          font-family: "FiraSansLight";
+          font-family: "FiraSans-Light";
 }
 h6, .h6 { font-size: $font-size-h6;
-          font-family: "FiraSansRegular";
+          font-family: "FiraSans-Regular";
 }
 
 
