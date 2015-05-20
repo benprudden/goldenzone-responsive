@@ -1,0 +1,82 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 100px;
+}
+
+.jumbotron {
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: $jumbotron-padding;
+  color: #fff;
+  height: 550px;
+  background-image: url("/images/atom_purple_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  h1,
+  .h1 {
+    color: $jumbotron-heading-color;
+    font-family: "FiraSansMedium";
+    padding-top: 20px;
+  }
+
+  p {
+    margin-bottom: ($jumbotron-padding);
+    font-size: $jumbotron-font-size;
+    line-height: normal;
+  }
+
+  > hr {
+    border-top-color: darken($jumbotron-bg, 10%);
+  }
+
+  .container &,
+  .container-fluid & {
+    border-radius: $border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  .container {
+    max-width: 100%;
+  }
+  
+  .banner {
+    background-color: rgba(0,0,0,0.3);
+    padding: 35px 0 35px 0;
+    margin-top: 72px;
+  }
+  
+  .btn-link {
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  
+  .btn-link:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    padding: ($jumbotron-padding * 1.6) 0;
+
+    .container &,
+    .container-fluid & {
+      padding-left:  ($jumbotron-padding * 2);
+      padding-right: ($jumbotron-padding * 2);
+    }
+
+    h1,
+    .h1 {
+      font-size: ($font-size-base * 4.5);
+    }
+  }
+}
+
