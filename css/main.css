@@ -1069,7 +1069,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "FiraSans-Light", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.9375;
   color: #333333;
@@ -1227,31 +1227,38 @@ h6, .h6 {
 
 h1, .h1 {
   font-size: 62px;
-  font-family: "FiraSans-Medium", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400; }
 
 h2, .h2 {
   font-size: 46px;
-  font-family: "FiraSans-Light", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200; }
 
 h3, .h3 {
   font-size: 28px;
-  font-family: "FiraSans-Light", sans-serif;
-  line-height: normal; }
+  font-family: "Fira Sans", sans-serif;
+  line-height: normal;
+  font-weight: 200; }
 
 h4, .h4 {
   font-size: 21px;
-  font-family: "FiraSans-Regular", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300; }
 
 h5, .h5 {
   font-size: 16px;
-  font-family: "FiraSans-Light", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200; }
 
 h6, .h6 {
   font-size: 12px;
-  font-family: "FiraSans-Regular", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300; }
 
 p {
-  margin: 0 0 15.5px; }
+  margin: 0 0 15.5px;
+  font-weight: 200; }
 
 .lead {
   margin-bottom: 31px;
@@ -3084,6 +3091,7 @@ input[type="button"].btn-block {
   background-color: #3D195E;
   color: #fff; }
   .footer a {
+    font-weight: 200;
     color: #fff; }
 
 .fade {
@@ -4253,7 +4261,8 @@ body {
   .jumbotron h1,
   .jumbotron .h1 {
     color: inherit;
-    font-family: "FiraSans-Medium";
+    font-family: "Fira Sans";
+    font-weight: 500;
     padding-top: 20px; }
   .jumbotron p {
     margin-bottom: 50px;
@@ -4275,6 +4284,7 @@ body {
     border-radius: 4px;
     padding: 5px 15px 5px 15px;
     font-size: 21px;
+    font-weight: 200;
     text-transform: uppercase;
     margin-right: 30px; }
   .jumbotron .btn-link:hover {
@@ -5105,7 +5115,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "FiraSans-Light", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5200,7 +5210,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "FiraSans-Light", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.9375;
