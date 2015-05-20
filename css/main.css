@@ -3079,7 +3079,7 @@ input[type="button"].btn-block {
   width: 100%; }
 
 .background-image {
-  background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, white 90%), url("/images/sqreem-humanity-section-bg.png") no-repeat;
+  background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, white 90%), url("../images/sqreem-humanity-section-bg.png") no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
