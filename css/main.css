@@ -1072,7 +1072,7 @@ body {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.9375;
-  color: #333333;
+  color: #3D195E;
   background-color: #fff; }
 
 input,
@@ -2814,7 +2814,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373; }
+  color: #7e34c3; }
 
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3079,17 +3079,20 @@ input[type="button"].btn-block {
   width: 100%; }
 
 .background-image {
-  background-image: url("/images/sqreem-humanity-section-bg.jpg");
+  background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, white 90%), url("/images/sqreem-humanity-section-bg.png") no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top right; }
+  background-position: top right;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
 
 .row img {
   margin-bottom: 20px; }
 
 .footer {
   background-color: #3D195E;
-  color: #fff; }
+  color: #fff;
+  margin-top: 50px; }
   .footer a {
     font-weight: 300;
     color: #fff; }
@@ -4321,7 +4324,7 @@ body {
     margin-right: auto; }
   .thumbnail .caption {
     padding: 9px;
-    color: #333333; }
+    color: #3D195E; }
 
 a.thumbnail:hover,
 a.thumbnail:focus,
