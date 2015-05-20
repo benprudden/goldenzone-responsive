@@ -10,7 +10,8 @@
   margin-bottom: 0;
   padding-left: 0; // Override default ul/ol
   list-style: none;
-  font-family: "FiraSans-Regular", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
   color: #3D195E;
   @include clearfix;
 
