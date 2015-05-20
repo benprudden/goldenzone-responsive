@@ -1228,33 +1228,33 @@ h6, .h6 {
 h1, .h1 {
   font-size: 62px;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 400; }
+  font-weight: 500; }
 
 h2, .h2 {
   font-size: 46px;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 200; }
+  font-weight: 300; }
 
 h3, .h3 {
   font-size: 28px;
   font-family: "Fira Sans", sans-serif;
   line-height: normal;
-  font-weight: 200; }
+  font-weight: 300; }
 
 h4, .h4 {
   font-size: 21px;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 300; }
+  font-weight: 400; }
 
 h5, .h5 {
   font-size: 16px;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 200; }
+  font-weight: 300; }
 
 h6, .h6 {
   font-size: 12px;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 300; }
+  font-weight: 400; }
 
 p {
   margin: 0 0 15.5px;
@@ -3091,7 +3091,7 @@ input[type="button"].btn-block {
   background-color: #3D195E;
   color: #fff; }
   .footer a {
-    font-weight: 200;
+    font-weight: 300;
     color: #fff; }
 
 .fade {
@@ -3515,7 +3515,7 @@ tbody.collapse.in {
   padding-left: 0;
   list-style: none;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #3D195E; }
   .nav:before, .nav:after {
     content: " ";
