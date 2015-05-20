@@ -81,23 +81,23 @@ h6, .h6 {
 }
 
 h1, .h1 { font-size: $font-size-h1;
-          font-family: "FiraSans-Medium";
+          font-family: "FiraSans-Medium", sans-serif;
 }
 h2, .h2 { font-size: $font-size-h2; 
-          font-family: "FiraSans-Light";
+          font-family: "FiraSans-Light", sans-serif;
 }
 h3, .h3 { font-size: $font-size-h3; 
-          font-family: "FiraSans-Light";
+          font-family: "FiraSans-Light", sans-serif;
           line-height: normal;
 }
 h4, .h4 { font-size: $font-size-h4; 
-          font-family: "FiraSans-Regular";
+          font-family: "FiraSans-Regular", sans-serif;
 }
 h5, .h5 { font-size: $font-size-h5; 
-          font-family: "FiraSans-Light";
+          font-family: "FiraSans-Light", sans-serif;
 }
 h6, .h6 { font-size: $font-size-h6;
-          font-family: "FiraSans-Regular";
+          font-family: "FiraSans-Regular", sans-serif;
 }
 
 

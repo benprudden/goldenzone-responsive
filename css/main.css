@@ -1227,28 +1227,28 @@ h6, .h6 {
 
 h1, .h1 {
   font-size: 62px;
-  font-family: "FiraSans-Medium"; }
+  font-family: "FiraSans-Medium", sans-serif; }
 
 h2, .h2 {
   font-size: 46px;
-  font-family: "FiraSans-Light"; }
+  font-family: "FiraSans-Light", sans-serif; }
 
 h3, .h3 {
   font-size: 28px;
-  font-family: "FiraSans-Light";
+  font-family: "FiraSans-Light", sans-serif;
   line-height: normal; }
 
 h4, .h4 {
   font-size: 21px;
-  font-family: "FiraSans-Regular"; }
+  font-family: "FiraSans-Regular", sans-serif; }
 
 h5, .h5 {
   font-size: 16px;
-  font-family: "FiraSans-Light"; }
+  font-family: "FiraSans-Light", sans-serif; }
 
 h6, .h6 {
   font-size: 12px;
-  font-family: "FiraSans-Regular"; }
+  font-family: "FiraSans-Regular", sans-serif; }
 
 p {
   margin: 0 0 15.5px; }
@@ -3506,7 +3506,7 @@ tbody.collapse.in {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  font-family: "FiraSans-Regular";
+  font-family: "FiraSans-Regular", sans-serif;
   color: #3D195E; }
   .nav:before, .nav:after {
     content: " ";
