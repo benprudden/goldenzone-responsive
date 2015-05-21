@@ -1239,7 +1239,8 @@ h3, .h3 {
   font-size: 28px;
   font-family: "Fira Sans", sans-serif;
   line-height: normal;
-  font-weight: 300; }
+  font-weight: 300;
+  padding-top: 30px; }
 
 h4, .h4 {
   font-size: 21px;
@@ -3930,8 +3931,7 @@ tbody.collapse.in {
       color: #333;
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #eeeeee; }
+    border-bottom: 2px solid #E6CC5E; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
@@ -4255,7 +4255,7 @@ body {
 
 .jumbotron {
   padding: 50px 25px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #fff;
   height: 550px;
   background-image: url("../images/atom_purple_hero_img.jpg");
