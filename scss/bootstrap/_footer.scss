@@ -4,11 +4,29 @@
 
 .footer{
 	background-color: #3D195E;
-	color: #fff;
+	color: #E6CC5E;
 	margin-top: 50px;
 	
 	a {
 		font-weight: 300;
-		color: #fff;
+		color: #E6CC5E;
 	}
+	
+	ul {
+		list-style: none;
+		padding-left: none;
+	}
+}
+
+.light{
+	color: #fff;
+	
+	a{
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+
+.bottom{
+	padding-bottom: 30px;
 }

@@ -52,7 +52,7 @@ body {
   
   .btn-link {
     color: #fff;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 4px;
     padding: 5px 15px 5px 15px;
     font-size: 21px;
@@ -63,7 +63,8 @@ body {
   
   .btn-link:hover {
     text-decoration: none;
-    opacity: 0.8;
+    color: #3D195E;
+    background-color: #fff;
   }
 
   @media screen and (min-width: $screen-sm-min) {
