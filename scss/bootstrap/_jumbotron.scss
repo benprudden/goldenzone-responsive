@@ -7,15 +7,15 @@ body {
   padding-top: 100px;
 }
 
-.jumbotron {
-  padding: $jumbotron-padding ($jumbotron-padding / 2);
-  margin-bottom: 20px;
-  color: #fff;
-  height: 550px;
+.jumbotron-home {
   background-image: url("../images/atom_purple_hero_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: 20px;
+  color: #fff;
+  height: 550px;
 
   h1,
   .h1 {
@@ -67,6 +67,112 @@ body {
     background-color: #fff;
   }
 
+  @media screen and (min-width: $screen-sm-min) {
+    padding: ($jumbotron-padding * 1.6) 0;
+
+    .container &,
+    .container-fluid & {
+      padding-left:  ($jumbotron-padding * 2);
+      padding-right: ($jumbotron-padding * 2);
+    }
+
+    h1,
+    .h1 {
+      font-size: ($font-size-base * 4.5);
+    }
+  }
+}
+
+.jumbotron-about {
+  background-image: url("../images/dna_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: 20px;
+  color: #fff;
+  height: 430px;
+
+  h1,
+  .h1 {
+    color: $jumbotron-heading-color;
+    font-family: "Fira Sans";
+    font-weight: 500;
+    padding-top: 20px;
+  }
+
+  p {
+    margin-bottom: ($jumbotron-padding);
+    font-size: $jumbotron-font-size;
+    line-height: normal;
+  }
+
+  > hr {
+    border-top-color: darken($jumbotron-bg, 10%);
+  }
+
+  .container &,
+  .container-fluid & {
+    border-radius: $border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  .container {
+    max-width: 100%;
+  }
+  
+  @media screen and (min-width: $screen-sm-min) {
+    padding: ($jumbotron-padding * 1.6) 0;
+
+    .container &,
+    .container-fluid & {
+      padding-left:  ($jumbotron-padding * 2);
+      padding-right: ($jumbotron-padding * 2);
+    }
+
+    h1,
+    .h1 {
+      font-size: ($font-size-base * 4.5);
+    }
+  }
+}
+
+.jumbotron-services {
+  background-image: url("../images/brain_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: 20px;
+  color: #fff;
+  height: 430px;
+
+  h1,
+  .h1 {
+    color: $jumbotron-heading-color;
+    font-family: "Fira Sans";
+    font-weight: 500;
+    padding-top: 20px;
+  }
+
+  p {
+    margin-bottom: ($jumbotron-padding);
+    font-size: $jumbotron-font-size;
+    line-height: normal;
+  }
+
+  > hr {
+    border-top-color: darken($jumbotron-bg, 10%);
+  }
+
+  .container &,
+  .container-fluid & {
+    border-radius: $border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  .container {
+    max-width: 100%;
+  }
+  
   @media screen and (min-width: $screen-sm-min) {
     padding: ($jumbotron-padding * 1.6) 0;
 

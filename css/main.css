@@ -3093,6 +3093,18 @@ input[type="button"].btn-block {
 .row img {
   margin-bottom: 20px; }
 
+.background-about {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+  .background-about .row {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .background-about .container {
+    padding-bottom: 30px; }
+
+.contact h3 {
+  padding-top: 0px; }
+
 .footer {
   background-color: #3D195E;
   color: #E6CC5E;
@@ -4268,36 +4280,36 @@ a.badge:hover, a.badge:focus {
 body {
   padding-top: 100px; }
 
-.jumbotron {
-  padding: 50px 25px;
-  margin-bottom: 20px;
-  color: #fff;
-  height: 550px;
+.jumbotron-home {
   background-image: url("../images/atom_purple_hero_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
-  .jumbotron h1,
-  .jumbotron .h1 {
+  background-position: center center;
+  padding: 50px 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 550px; }
+  .jumbotron-home h1,
+  .jumbotron-home .h1 {
     color: inherit;
     font-family: "Fira Sans";
     font-weight: 500;
     padding-top: 20px; }
-  .jumbotron p {
+  .jumbotron-home p {
     margin-bottom: 50px;
     font-size: 28px;
     line-height: normal; }
-  .jumbotron > hr {
+  .jumbotron-home > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron-home, .container-fluid .jumbotron-home {
     border-radius: 6px; }
-  .jumbotron .container {
+  .jumbotron-home .container {
     max-width: 100%; }
-  .jumbotron .banner {
+  .jumbotron-home .banner {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 35px 0 35px 0;
     margin-top: 72px; }
-  .jumbotron .btn-link {
+  .jumbotron-home .btn-link {
     color: #fff;
     border: 1px solid white;
     border-radius: 4px;
@@ -4306,18 +4318,88 @@ body {
     font-weight: 200;
     text-transform: uppercase;
     margin-right: 30px; }
-  .jumbotron .btn-link:hover {
+  .jumbotron-home .btn-link:hover {
     text-decoration: none;
     color: #3D195E;
     background-color: #fff; }
   @media screen and (min-width: 768px) {
-    .jumbotron {
+    .jumbotron-home {
       padding: 80px 0; }
-      .container .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron-home, .container-fluid .jumbotron-home {
         padding-left: 100px;
         padding-right: 100px; }
-      .jumbotron h1,
-      .jumbotron .h1 {
+      .jumbotron-home h1,
+      .jumbotron-home .h1 {
+        font-size: 72px; } }
+
+.jumbotron-about {
+  background-image: url("../images/dna_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 430px; }
+  .jumbotron-about h1,
+  .jumbotron-about .h1 {
+    color: inherit;
+    font-family: "Fira Sans";
+    font-weight: 500;
+    padding-top: 20px; }
+  .jumbotron-about p {
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: normal; }
+  .jumbotron-about > hr {
+    border-top-color: #d5d5d5; }
+  .container .jumbotron-about, .container-fluid .jumbotron-about {
+    border-radius: 6px; }
+  .jumbotron-about .container {
+    max-width: 100%; }
+  @media screen and (min-width: 768px) {
+    .jumbotron-about {
+      padding: 80px 0; }
+      .container .jumbotron-about, .container-fluid .jumbotron-about {
+        padding-left: 100px;
+        padding-right: 100px; }
+      .jumbotron-about h1,
+      .jumbotron-about .h1 {
+        font-size: 72px; } }
+
+.jumbotron-services {
+  background-image: url("../images/brain_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 430px; }
+  .jumbotron-services h1,
+  .jumbotron-services .h1 {
+    color: inherit;
+    font-family: "Fira Sans";
+    font-weight: 500;
+    padding-top: 20px; }
+  .jumbotron-services p {
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: normal; }
+  .jumbotron-services > hr {
+    border-top-color: #d5d5d5; }
+  .container .jumbotron-services, .container-fluid .jumbotron-services {
+    border-radius: 6px; }
+  .jumbotron-services .container {
+    max-width: 100%; }
+  @media screen and (min-width: 768px) {
+    .jumbotron-services {
+      padding: 80px 0; }
+      .container .jumbotron-services, .container-fluid .jumbotron-services {
+        padding-left: 100px;
+        padding-right: 100px; }
+      .jumbotron-services h1,
+      .jumbotron-services .h1 {
         font-size: 72px; } }
 
 .thumbnail {
