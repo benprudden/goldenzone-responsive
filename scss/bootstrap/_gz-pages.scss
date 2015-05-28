@@ -34,11 +34,13 @@
   }
 }
 
-.contact {
+.in-touch {
   h3 {
     padding-top: 0px;
   }
 }
+
+// Timeline inspired by http://jsfiddle.net/kthornbloom/zJ6kp/
 
 .timeline {
     white-space:nowrap;
@@ -58,54 +60,18 @@
     min-width:auto;
     max-width:200px;
     margin-right: 50px;
+    
+    h4 {
+      border: 2px solid #E6CC5E;
+      border-radius: 50px;
+      background: #fff;
+      padding: 5px;
+    }
+    
+    p {
+      color: #3D195E;
+    }
 }
-
-.entry h4 {
-    border: 2px solid #E6CC5E;
-    border-radius: 50px;
-    background: #fff;
-    padding: 5px;
-}
-
-/*.entry:after {
-    content:'';
-    display:block;
-    background:#eee;
-    width:7px;
-    height:7px;
-    border-radius:6px;
-    border:3px solid #06182E;
-    position:absolute;
-    left:50%;
-    top:-30px;
-    margin-left:-6px;
-}*/
-
-/*.entry:before {
-    content:'';
-    display:block;
-    background:#06182E;
-    width:5px;
-    height:20px;
-    position:absolute;
-    left:50%;
-    top:-20px;
-    margin-left:-2px;
-}*/
-
-/* .entry h1 {
-    color:#fff;
-    font-size:18px;
-    font-family:Georgia, serif;
-    font-weight:bold;
-    margin-bottom:10px;
-}
-
-.entry h2 {
-    letter-spacing:.2em;
-    margin-bottom:10px;
-    font-size:14px;
-}*/
 
 .bar {
     height:2px;
@@ -115,3 +81,23 @@
     top:45px;
     left:0;
 }
+
+// Contact page
+
+.background-contact {
+  background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,1) 90%), url('../images/ardington_map.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 500px;
+  margin-bottom: -50px;
+}
+
+.contact {
+  h3 {
+    border-bottom: 1px solid #3D195E;
+  }
+}
+
+
+
