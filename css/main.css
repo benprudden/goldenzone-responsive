@@ -1439,8 +1439,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 15.5px 31px;
   margin: 0 0 31px;
-  font-size: 20px;
-  border-left: 5px solid #eeeeee; }
+  font-size: 20px; }
   blockquote p:last-child,
   blockquote ul:last-child,
   blockquote ol:last-child {
@@ -3147,6 +3146,23 @@ input[type="button"].btn-block {
 
 .contact h3 {
   border-bottom: 1px solid #3D195E; }
+
+/* Tab Navigation */
+.background-services {
+  border-bottom: 1px solid #ddd;
+  margin-top: 60px;
+  padding-bottom: 50px; }
+
+#exTab1 .tab-content {
+  background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, white 90%), url("../images/sqreem-humanity-section-bg.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  border-top: 1px solid #ddd;
+  padding: 5px 15px; }
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0; }
 
 .footer {
   background-color: #3D195E;
