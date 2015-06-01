@@ -110,12 +110,28 @@
 }
 
 #exTab1 .tab-content {
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,1) 90%), url('../images/sqreem-humanity-section-bg.png') no-repeat;
+  border-top: 1px solid #ddd;
+}
+
+.ct-background {
+  background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,1)), url('../images/ct-background.jpg') no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top right;
-  border-top: 1px solid #ddd;
-  padding : 5px 15px;
+  background-position: center center;
+}
+
+.postmarket-background {
+  background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,1)), url('../images/postmarketing-background.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.eeaqp-background {
+  background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,1)), url('../images/eeaqp-background.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 #exTab1 .nav-pills > li > a {
