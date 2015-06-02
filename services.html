@@ -67,24 +67,24 @@
 		<div id="exTab1" class="background-services">	
 				<ul  class="container nav nav-pills">
 					<li class="active">
-		        		<a  href="#1a" data-toggle="tab">Clinical Trails</a>
+		        		<a  href="#clinicaltrials" data-toggle="tab">Clinical Trails</a>
 					</li>
 					<li>
-						<a href="#2a" data-toggle="tab">Post Marketing</a>
+						<a href="#postmarketing" data-toggle="tab">Post Marketing</a>
 					</li>
 					<li>
-						<a href="#3a" data-toggle="tab">EEA QP & QPPV</a>
+						<a href="#eeaqppv" data-toggle="tab">EEA QP & QPPV</a>
 					</li>
 		  			<li>
-						<a href="#4a" data-toggle="tab">Medical Devices</a>
+						<a href="#medicaldevices" data-toggle="tab">Medical Devices</a>
 					</li>
 					<li>
-						<a href="#5a" data-toggle="tab">PV Training</a>
+						<a href="#pvtraining" data-toggle="tab">PV Training</a>
 					</li>
 				</ul>
 
 				<div class="tab-content clearfix">
-					<div class="ct-background tab-pane active" id="1a">
+					<div class="ct-background tab-pane active" id="clinicaltrials">
 						<div class="container">
 		          			<h3>Clincal Trails Content Goes Here</h3>
 							<h4>A one line tagline to sell the service, about this long. Maybe a bit longer.</h4>
@@ -98,7 +98,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="postmarket-background tab-pane" id="2a">
+					<div class="postmarket-background tab-pane" id="postmarketing">
 						<div class="container">
 		          			<h3>Post-Marketing Content Goes Here</h3>
 							<h4>A one line tagline to sell the service, about this long. Maybe a bit longer.</h4>
@@ -112,7 +112,7 @@
 							</ul>
 						</div>
 					</div>
-	        		<div class="eeaqp-background tab-pane" id="3a">
+	        		<div class="eeaqp-background tab-pane" id="eeaqppv">
 						<div class="container">
 		          			<h3>EEA QP & QPPV Content Goes Here</h3>
 							<h4>A one line tagline to sell the service, about this long. Maybe a bit longer.</h4>
@@ -126,10 +126,10 @@
 							</ul>
 						</div>
 					</div>
-	          		<div class="container tab-pane" id="4a">
+	          		<div class="container tab-pane" id="medicaldevices">
 	          			<h3>Medical Devices Content Goes Here</h3>
 					</div>
-					<div class="container tab-pane" id="5a">
+					<div class="container tab-pane" id="pvtraining">
 	          			<h3>PV Training Content Goes Here</h3>
 					</div>
 				</div>
@@ -141,13 +141,13 @@
 				<div class="col-md-5">
 					<h3>We’re listening so let’s talk.</h3>
 					<p>Whoever you deal with will treat your request as a priority with a smile on their faces.</p>
-					<a class="btn btn-default" href="#" role="button">EMAIL US »</a>
-					<a class="btn btn-default" href="#" role="button">+44 (0)33 33 44 55 45</a>
+					<a class="btn btn-default" href="mailto:enquiries@goldenzone.co.uk" role="button">EMAIL US »</a>
+					<a class="btn btn-default" href="tel:+443333445545" role="button">+44 (0)33 33 44 55 45</a>
 				</div>
 				<div class="col-md-5 col-md-offset-2">
 					<h3>How are we different?</h3>
-					<p>Our size means our dealings with clients are more personal, developing strong working partnerships.</p>
-					<a class="btn btn-default" href="#" role="button">ABOUT US »</a>
+					<p>We develop strong working partnerships with our clients. Find out about the team companies trust time and time again.</p>
+					<a class="btn btn-default" href="about.html" role="button">ABOUT US »</a>
 				</div>
 			</div>
 		</div>
@@ -220,7 +220,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 social">
 						<a class="pull-right" href="http://www.twitter.co.uk"><img src="images/twitter-icon.png" width="40px" height="40px"></a>
 						<a class="pull-right" href="http://www.linkedin.co.uk"><img src="images/Linkedin-icon.png" width="40px" height="40px"></a>
 						<p class="light pull-right align-right">Website designed by
@@ -247,6 +247,19 @@
 		<script src="scripts/wow.js"></script>
 		<script>
 			new WOW().init();
+		</script>
+		<script>
+			$(function(){
+				var hash = window.location.hash;
+				hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+				
+				$('.nav-pills a').click(function (e) {
+					$(this).tab('show');
+					var scrollmem = $('body').scrollTop();
+					window.location.hash = this.hash;
+					$('html,body').scrollTop(scrollmem);
+				});
+			});
 		</script>
 	</body>
 

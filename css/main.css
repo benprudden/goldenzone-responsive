@@ -3086,8 +3086,7 @@ input[type="button"].btn-block {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd; }
+  border-top: 1px solid #ddd; }
 
 .row img {
   margin-bottom: 20px; }
@@ -3208,6 +3207,15 @@ input[type="button"].btn-block {
 
 .bottom {
   padding-bottom: 30px; }
+
+.social {
+  padding-top: 20px; }
+  .social img {
+    margin-right: 10px; }
+  .social img:hover {
+    opacity: 0.9; }
+  .social a:hover {
+    text-decoration: none; }
 
 .fade {
   opacity: 0;

@@ -30,3 +30,19 @@
 .bottom{
 	padding-bottom: 30px;
 }
+
+.social {
+	padding-top: 20px;
+	
+	img {
+		margin-right: 10px;
+	}
+	
+	img:hover {
+		opacity: 0.9;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+}
