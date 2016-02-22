@@ -426,8 +426,7 @@
       &,
       &:hover,
       &:focus {
-        color: $navbar-default-link-active-color;
-        background-color: $navbar-default-link-active-bg;
+        border-bottom: 2px solid #E6CC5E;
       }
     }
     > .disabled > a {
