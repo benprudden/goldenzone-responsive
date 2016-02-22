@@ -3126,7 +3126,8 @@ input[type="button"].btn-block {
     background: #fff;
     padding: 5px; }
   .entry p {
-    color: #3D195E; }
+    color: #3D195E;
+    white-space: normal; }
 
 .bar {
   height: 2px;
